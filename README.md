@@ -1,5 +1,9 @@
 # Pancake Sort
 
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice." 
+
+Used prior approved work at: https://github.com/COSC3020/pancake-sort-Powerfuljackell
+
 There is an abstract data type (ADT) called a *pancake array*, which provides
 the function `flip(array, n)`, which takes the top (first) $n$ items in the
 array and "flips them over", i.e. reverses their order.
@@ -28,4 +32,8 @@ element into its correct position.
 What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
+
+The number of comparisons for a given array of size n would be n^2 as the pancake sort iterates over each individual point in the array,
+comparing it to the rest of the array.
+In terms of the number of flips, it is directly proportional to 2n, or n when constants are removed as the for loop iterates 2 flips each time.
 
